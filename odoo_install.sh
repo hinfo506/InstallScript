@@ -14,9 +14,9 @@
 # ./odoo-install
 ################################################################################
 
-OE_USER="odoo"
+OE_USER="odoo13"
 OE_HOME="/$OE_USER"
-OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
+OE_HOME_EXT="/$OE_USER/${OE_USER}"
 # The default port where this Odoo instance will run under (provided you use the command -c in the terminal)
 # Set to true if you want to install it, false if you don't need it or have it already installed.
 INSTALL_WKHTMLTOPDF="True"
@@ -28,10 +28,10 @@ OE_VERSION="13.0"
 # Set this to True if you want to install the Odoo enterprise version!
 IS_ENTERPRISE="False"
 # Set the superadmin password - if GENERATE_RANDOM_PASSWORD is set to "True" we will automatically generate a random password, otherwise we use this one
-OE_SUPERADMIN="admin"
+OE_SUPERADMIN="odooadmin"
 # Set to "True" to generate a random password, "False" to use the variable in OE_SUPERADMIN
 GENERATE_RANDOM_PASSWORD="True"
-OE_CONFIG="${OE_USER}-server"
+OE_CONFIG="${OE_USER}"
 
 ##
 ###  WKHTMLTOPDF download links
